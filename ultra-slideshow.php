@@ -55,6 +55,27 @@ register_deactivation_hook( __FILE__, 'ultra_slideshow_deactivate' );
 require ULTRA_SLIDESHOW_DIR_PATH . 'includes/Init.php';
 
 /**
+ * Initialize the plugin tracker
+ *
+ * @return void
+ */
+function appsero_init_tracker_ultra_slideshow() {
+
+    if ( ! class_exists( 'Appsero\Client' ) ) {
+		require ULTRA_SLIDESHOW_DIR_PATH . 'includes/appsero/src/Client.php';
+    }
+
+    $client = new Appsero\Client( 'c4481911-35b5-4fa9-89f4-411d2fe88e88', 'Ultra Slideshow', __FILE__ );
+
+    // Active insights.
+    $client->insights()->init();
+
+}
+
+appsero_init_tracker_ultra_slideshow();
+
+
+/**
  * Begin execution of the plugin
  */
 if ( ! function_exists( 'ultra_slideshow_run' ) ) {
