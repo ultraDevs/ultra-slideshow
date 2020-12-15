@@ -7,7 +7,7 @@
 
 /**
  * Plugin Name:       Ultra Slideshow
- * Plugin URI:        https://ultradevs.com/wp/plugins/ultra-slideshow
+ * Plugin URI:        https://ultradevs.com/plugins/ultra-slideshow
  * Description:       Ultra Slideshow is a modern sortable slide show plugin for WordPress.
  * Version:           1.0.0
  * Requires at least: 5.2
