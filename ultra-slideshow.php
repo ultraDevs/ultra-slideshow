@@ -49,6 +49,22 @@ if ( ! function_exists( 'ultra_slideshow_deactivate' ) ) {
 }
 register_deactivation_hook( __FILE__, 'ultra_slideshow_deactivate' );
 
+
+/**
+ * The code that helps translating
+ */
+if ( ! function_exists( 'ultra_slideshow_load_text_domain' ) ) {
+	/**
+	 * Loads a plugin’s translated strings.
+	 *
+	 * @return void
+	 */
+	function ultra_slideshow_load_text_domain() {
+		load_plugin_textdomain( 'ultra-slideshow', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	}
+}
+add_action( 'init', 'ultra_slideshow_load_text_domain' );
+
 /**
  * Core plugin class
  */
