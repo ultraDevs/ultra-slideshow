@@ -1,0 +1,79 @@
+# Copyright (C) 2020 ultraDevs
+# This file is distributed under the same license as the Ultra Slideshow plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultra Slideshow 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ultra-slideshow\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-12-23T08:49:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: ultra-slideshow\n"
+
+#. Plugin Name of the plugin
+msgid "Ultra Slideshow"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://ultradevs.com/plugins/ultra-slideshow"
+msgstr ""
+
+#. Description of the plugin
+msgid "Ultra Slideshow is a modern sortable slide show plugin for WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "ultraDevs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://ultradevs.com"
+msgstr ""
+
+#: includes/Classes/Custom_Meta_Box.php:32
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/Classes/Custom_Meta_Box.php:33
+msgid "Settings"
+msgstr ""
+
+#: includes/Classes/Custom_Meta_Box.php:34
+#: includes/Classes/Slideshow_Column.php:30
+msgid "Shortcode"
+msgstr ""
+
+#: includes/Classes/Custom_Meta_Box.php:93
+msgid "Add Images"
+msgstr ""
+
+#: includes/Classes/Custom_Post_Type.php:45
+msgctxt "Post type general name"
+msgid "Slideshow"
+msgstr ""
+
+#: includes/Classes/Custom_Post_Type.php:46
+msgctxt "Post type singular name"
+msgid "Slideshow"
+msgstr ""
+
+#: includes/Classes/Custom_Post_Type.php:47
+msgctxt "Admin Menu title"
+msgid "Slideshow"
+msgstr ""
+
+#: includes/Classes/Slideshow_Column.php:29
+msgid "Title"
+msgstr ""
+
+#: includes/Classes/Slideshow_Column.php:31
+msgid "Author"
+msgstr ""
+
+#: includes/Classes/Slideshow_Column.php:32
+msgid "Date"
+msgstr ""
