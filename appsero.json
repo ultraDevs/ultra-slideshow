@@ -1,0 +1,9 @@
+{
+    "exclude": [
+        "appsero.json",
+        "README.md",
+        ".wordpress-org",
+        ".gitignore",
+        ".gitattributes"
+    ]
+}
